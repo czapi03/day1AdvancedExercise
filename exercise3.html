@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+</head>
+<style>
+ table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+</style>
+<body>
+   <!-- Create a planner for activities to do in Vienna over the weekend.
+    You will need 3 rows and 3 columns. The first row will contain the headings Day, Morning and Afternoon.
+    The second row contains all the information for Saturday. Place descriptive lists within each of the two empty table
+    cells(the cells for the morning and afternoon).
+    For Sunday, use ordered lists to rank your activities. Within the ordered lists you should nest unordered lists with
+    more information on each activity you plan. -->
+    <h1>Activities-Planner Weekend</h1>
+    <table>
+        <tr>
+            <th align="left">Day</th>
+            <th align="left">Morning</th>
+            <th align="left">Afternoon</th>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>
+                <dl>
+                    <dt>Coding</dt>
+                    <dd>React Native</dd>
+                </dl>
+            </td>
+            <td>
+                <dl>
+                    <dt>Coding</dt>
+                    <dd>PHP</dd>
+                </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>
+                <dl>
+                    <dt>Cycling</dt>
+                    <dd>
+                        <ol>
+                            <li>Mountain</li>
+                            <li>FLach</li>
+                            <li>Fetzig</li>
+                        </ol>
+                    </dd>
+                </dl>
+            </td>
+            <td>
+                <dl>
+                    <dt>Cycling</dt>
+                    <dd>
+                        <ul>
+                            <li>funny</li>
+                            <li>funny2</li>
+                            <li>funny3</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
